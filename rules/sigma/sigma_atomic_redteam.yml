@@ -1,0 +1,18 @@
+title: Atomic Red Team Script Execution Detected
+id: c3d4e5f6-a7b8-9012-cdef-123456789012
+status: experimental
+description: Detects execution of Atomic Red Team test scripts in /tmp directory
+author: Your Name - Cybersecurity Capstone Project
+date: 2026/07/08
+tags:
+    - attack.execution
+    - attack.t1059.004
+logsource:
+    product: linux
+    service: auth
+detection:
+    selection:
+        data|contains: 'art.sh'
+falsepositives:
+    - Security testing by authorized personnel
+level: medium
