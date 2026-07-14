@@ -1,0 +1,21 @@
+title: SSH Brute Force Attack Detected
+id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
+status: stable
+description: Detects multiple failed SSH authentication attempts indicating a brute force attack
+author: Your Name - Cybersecurity Capstone Project
+date: 2026/07/08
+tags:
+    - attack.credential_access
+    - attack.t1110.001
+logsource:
+    product: linux
+    service: auth
+detection:
+    selection:
+        data|contains: 'Invalid user'
+    timeframe: 60s
+    condition: selection | count() > 5
+falsepositives:
+    - Legitimate users mistyping credentials
+    - Automated deployment tools
+level: high
