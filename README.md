@@ -78,7 +78,6 @@ VPC: 10.0.0.0/16
 |-----------|---------|---------|---------------|
 | **Wazuh Manager** | 4.6.0 | Centralized SIEM/EDR | Open-source, MITRE-mapped, scales to 10K+ agents |
 | **Elasticsearch** | 7.14.0 | Log indexing & search | Sub-second query latency, Lucene query syntax |
-| **Kibana** | 7.14.0 | Visualization & dashboards | Real-time alerting, drag-drop visualizations |
 | **Windows Server** | 2022 | Target endpoint (enterprise OS) | Long-term support, Sysmon compatibility |
 | **Ubuntu** | 22.04 LTS | Target endpoint (Linux diversity) | LTS support through 2027, auditd native |
 | **Sysmon** | 14.x | Windows event logging | Process lineage, network connections, file integrity |
