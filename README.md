@@ -588,12 +588,12 @@ Sigma rules are licensed under the **Sigma License Agreement** (permissive for s
 
 ## Author & Contact
 
-**Project Lead:** [Edidiong Etuk]  
-**Email:** [edidiongetuk11@gmail.com]  
+**Project Lead:** [Akwaubo Joseph Akpan]  
+**Email:** [akpanakwaubok@gmail.com]  
 **LinkedIn:** [www.linkedin.com/in/edidiong-etuk-86568141a](www.linkedin.com/in/edidiong-etuk-86568141a)  
 **GitHub:** [@edidiongetuk1](https://github.com/edidiongetuk1)  
 
-**Last Updated:** June 2026
+**Last Updated:** July 2026
 **Lab Status:** Active, accepting contributions
 
 ---
@@ -604,7 +604,7 @@ Sigma rules are licensed under the **Sigma License Agreement** (permissive for s
 - Atomic Red Team / Red Canary for attack simulation framework
 - SigmaHQ for detection rule standards
 - MITRE ATT&CK for threat taxonomy
-- My cybersecurity mentor / instructor for guidance  [**MR. DANIEL**]
+- My cybersecurity mentor / instructor for guidance  [**MR. DANIEL **]
 
 ---
 
